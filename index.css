@@ -1,0 +1,21 @@
+
+/**
+ * Convertro logo.
+ */
+
+.logo[data-logo="Convertro"] {
+  width: 5.612666086744356em;
+}
+
+.logo[data-logo="Convertro"] > * {
+  background-image: url(images/logo.svg);
+  margin: .1em -.05em 0 0;
+}
+
+.logo[data-logo="Convertro"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Convertro"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
